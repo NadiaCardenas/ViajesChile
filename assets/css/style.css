@@ -39,3 +39,31 @@
 .text2{
     background-color: #37BDE6;
 }
+
+.icon {
+    background-repeat: no-repeat;
+    width: 5%; /*or your image's width*/
+    height: 5%; /*or your image's height*/
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+.icon1 {
+    background-repeat: no-repeat;
+    width: 5%; /*or your image's width*/
+    height: 5%; /*or your image's height*/
+    margin: 0;
+    padding: 0;
+    transform:rotate(90deg);
+    align-items: center;
+}
+.icon2 {
+    width: 25%; /*or your image's width*/
+    height: 25%; /*or your image's height*/
+}
+.icon-f{
+    width: 8%; /*or your image's width*/
+    height: 25%; /*or your image's height*/
+}
+

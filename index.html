@@ -23,47 +23,45 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>  
 </head> 
+
 <body id="seccion">
-<!-- Menú -->
-    <div class="">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
-          <div class="container">
-              <a class="navbar-brand" href="#">
-                <div class="row ">
-                  <div class="hstack">
-                  <img class="logo " src="assets/img/viajes.svg" alt="">
-                  <h3 class="">Viajes Chile</h3>
-                  </div>
-                </div>
-              </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
-            aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-lg-0 fs-5">
-                  <li class="nav-item">
-                      <a class="nav-link active me-2" aria-current="page" href="#">Inicio</a>
-                    </li>
-                  <li class="nav-item">
-                      <a class="nav-link active me-2" aria-current="page" href="#">Quienes Somos</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active me-2" aria-current="page" href="#">Destacados</a>
-                    </li>
-
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-                    </li>
-              </ul>
-            
-            </div>
-          </div>
-        </nav>
-    </div>
-
 <!-- CUERPO -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <div class="hstack">
+        <img src="assets/img/viajes.svg" width="10" height="10" class="img-fluid logo d-inline-block align-top" alt="" style="width: 35px; height: 35px;">
+        Viajes Chile
+      </div>
+    </a>
+    <button class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-lg-0 fs-5 ">
+        <li class="nav-item">
+            <a class="nav-link active me-2" aria-current="page" href="#">Inicio</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link active me-2" aria-current="page" href="#">Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active me-2" aria-current="page" href="#">Destacados</a>
+          </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <!-- SECCION 1 -->     
 <!-- Carrusel -->
 <div class="container-fliud">
@@ -103,76 +101,78 @@
 
 <!-- SECCION 2 -->
  <!-- titulo --> 
-        <div>
+        <div class="d-none d-sm-block">
           <h4 class="text-white text-center mb-4 mt-5">¿QUIÉNES SOMOS?</h4>
           <h1 class="border-bottom border-dark "></h1>
         </div>
 
 <!-- informacion -->
-  <div class="pt-4 text-white px-5">
-    <div class="row">
-<!--1-->
-        <div class="col-4 bg-transparent hstack gap-3">
-          <!-- icono -->
-              <div class="titulo">
-                <i class="fa-solid"><img class="icon1 text-center px-1" src="assets/img/airplane-fill.svg"></i>
-              </div>
-          <!-- texto -->
-              <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
-                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
-                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum 
-                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit 
-                praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-        </div>
-
-<!--2-->
-        <div class="col-4">
-          <!-- texto -->
+  <div class="d-none d-sm-block pt-4 text-white px-5">
+    <div class="container-fluid"> 
+      <div class="row">
+  <!--1-->
+          <div class="col-4 bg-transparent hstack gap-3">
+            <!-- icono -->
+                <div class="titulo">
+                 <i class="fa-solid"> <img class="icon1 px-1" src="assets/img/airplane-fill.svg"></i>
+                </div>
+            <!-- texto -->
                 <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                   euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
                   quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
                   Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum 
                   dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit 
                   praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-          <!-- icono -->
-                <div class="titulo align-center" >
-                  <i class="fa-solid"><img class="icon text-center px-1" src="assets/img/mountain-solid.svg"></i>
-                </div>
-        </div>
+          </div>
 
-<!--3-->
-        <div class="col-4">
-          <!-- icono -->
-              <div class="titulo align-center" >
-                <i class="fa-solid"><img class="icon text-center px-1" src="assets/img/route-solid.svg"></i>
-              </div>
-          <!-- texto -->
-              <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
-                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
-                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum 
-                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit 
-                praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-        </div>
+  <!--2-->
+          <div class="col-4">
+            <!-- texto -->
+                  <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
+                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
+                    quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum 
+                    dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit 
+                    praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+            <!-- icono -->
+                  <div class="titulo" >
+                    <i class="fa-solid"><img class="icon px-1" src="assets/img/mountain-solid.svg"></i>
+                  </div>
+          </div>
+
+  <!--3-->
+          <div class="col-4">
+            <!-- icono -->
+                <div class="titulo" >
+                  <i class="fa-solid"><img class="icon px-1" src="assets/img/route-solid.svg"></i>
+                </div>
+            <!-- texto -->
+                <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
+                  euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
+                  quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum 
+                  dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit 
+                  praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+          </div>
+      </div>
     </div>
   </div>
+
 <!-- SECCION 3 -->
 
-          <div class="container text-white">
-          <div class="row">
  <!-- titulo --> 
               <div>
-                <h4 class="text-center mb-4 mt-5">DESTACADOS</h4>
+                <h4 class="text-center text-white mb-4 mt-5">DESTACADOS</h4>
                 <h1 class="border-bottom border-dark "></h1>
               </div>
+
 
   <!-- card1 -->
               <div class="col-md-3 col-xs-12 mb-5">
                 <div class="card">
                   <img class="card-img-top" src="assets/img/card1.jpg" alt="Card image">
-                  <div class="card-body my-3 mt-3 mb-5">
-                    <h5 class="card-title fw-bold mb-3">Lorem ipsum dolor sit amet</h5>
+                  <div class="card-body text-white my-3 mt-3">
+                    <h5 class="card-title fw-bold ">Lorem ipsum dolor sit amet</h5>
                     <div>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
                       ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -183,9 +183,9 @@
   <!-- card2 -->
               <div class="col-md-3 col-xs-12 mb-5">
                 <div class="card">
-                  <img class="img1 card-img-top" src="assets/img/card2.jpg" alt="Card image">
-                  <div class="card-body mx-3 mt-3 mb-2">
-                    <h5 class="card-title fw-bold mb-3">Lorem ipsum dolor sit amet</h5>
+                  <img class="img1 card-img-top img-fluid" src="assets/img/card2.jpg" alt="Card image">
+                  <div class="card-body text-white mx-3 mt-3 mb-3">
+                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet</h5>
                     <div>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
                         ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -196,9 +196,9 @@
   <!-- card3 -->
               <div class="col-md-3 col-xs-12 mb-5">
                 <div class="card">
-                  <img class="card-img-top" src="assets/img/card3.jpg" alt="Card image">
-                  <div class="card-body my-3 mt-3 mb-5">
-                    <h5 class="card-title fw-bold mb-3">Lorem ipsum dolor sit amet</h5>
+                  <img class="card-img-top img-fluid" src="assets/img/card3.jpg" alt="Card image">
+                  <div class="card-body text-white my-3 mt-3">
+                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet</h5>
                     <div>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
                         ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -209,9 +209,9 @@
   <!-- card3 -->
               <div class="col-md-3 col-xs-12 mb-5">
                 <div class="card">
-                  <img class="card-img-top" src="assets/img/card4.jpg" alt="Card image">
-                  <div class="card-body my-3 mt-3 mb-5">
-                    <h5 id="titulo3" class="card-title fw-bold mb-3">Lorem ipsum dolor sit amet</h5>
+                  <img class="card-img-top img-fluid" src="assets/img/card4.jpg" alt="Card image">
+                  <div class="card-body text-white my-3 mt-3">
+                    <h5 id="titulo3" class="card-title fw-bold">Lorem ipsum dolor sit amet</h5>
                     <div id="text3">
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
                         ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -219,10 +219,7 @@
                   </div>
                 </div>
               </div>
-
-            </div>
-          </div>
-
+         
 
 <!-- SECCION 4 -->
 
@@ -261,11 +258,11 @@
 <!-- SECCION 5 -->
 <!-- pie -->
           <div class="">
-            <div class="text2 col-md-12 col-xs-12 text-center text-white hstack gap-3">
+            <div class="text2 col-md-12 col-xs-12 text-white hstack gap-1">
               <div class="container-fluid">
-                <div  class="row">
-                    <h4 class="col-md-6 bg-transparent pt-5 col-3">VIAJES CHILE</h4>
-                    <div class="align-items-end col-6">
+                <div  class="row ">
+                    <h4 class="align-items-start col-md-6 bg-transparent pt-5 ps-5">VIAJES CHILE</h4>
+                    <div class="align-items-end col-6 pt-5">
                       <img class="icon2" src="assets/img/github-icon.svg">
                       <img class="icon2" src="assets/img/linkedin-icon.svg">
                       <img class="icon2" src="assets/img/twitter-icon.svg">

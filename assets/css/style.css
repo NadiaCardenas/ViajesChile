@@ -3,10 +3,14 @@
     background-color: black;
 }
 
+/******************************************************/
+
 /* menu */
 .logo{
-    width: 7%;
+    width: 15%;
 }
+
+/******************************************************/
 
 /* seccion 1*/
 .carrusel{
@@ -16,16 +20,44 @@
 
 }
 
+/******************************************************/
+
 /* seccion 2*/
 .titulo{
     background-color: #37BDE6;
 
 }
+.icon {
+    background-repeat: no-repeat;
+    width: 10%; /*or your image's width*/
+    height: 10%; /*or your image's height*/
+    margin: 0;
+    padding: 0;
+    margin-left:80%;
+
+}
+.icon1 {
+    background-repeat: no-repeat;
+    width: 10%; /*or your image's width*/
+    height: 10%; /*or your image's height*/
+    margin: 0;
+    padding: 0;
+    transform:rotate(90deg);
+    margin-left:80%;
+}
+
+/******************************************************/
 
 /* seccion 3*/
 .card{
     background-color: #37BDE6;
+    margin-bottom: 5%;
 }
+.img1{
+    height: 300px;
+}
+
+/******************************************************/
 
 /* seccion 4*/
 .enviar{
@@ -35,29 +67,13 @@
     height: 100%;
 }
 
+/******************************************************/
+
 /*seccion 5*/
 .text2{
     background-color: #37BDE6;
 }
 
-.icon {
-    background-repeat: no-repeat;
-    width: 5%; /*or your image's width*/
-    height: 5%; /*or your image's height*/
-    margin: 0;
-    padding: 0;
-    align-items: center;
-
-}
-.icon1 {
-    background-repeat: no-repeat;
-    width: 5%; /*or your image's width*/
-    height: 5%; /*or your image's height*/
-    margin: 0;
-    padding: 0;
-    transform:rotate(90deg);
-    align-items: center;
-}
 .icon2 {
     width: 25%; /*or your image's width*/
     height: 25%; /*or your image's height*/
@@ -65,5 +81,6 @@
 .icon-f{
     width: 8%; /*or your image's width*/
     height: 25%; /*or your image's height*/
+    margin-left: 5%;
 }
 
